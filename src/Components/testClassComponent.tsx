@@ -9,11 +9,11 @@ class TestClassComponent extends React.Component<{}, { count: number }> {
         }
     }
     componentWillUpdate(nextProps: any, nextState: any) {
-        console.log('Component componentWillUpdate')
+        console.log('Component WillUpdate')
     }
 
     componentDidUpdate(prevProps: any, prevState: any) {
-        console.log('Component componentDidUpdate')
+        console.log('Component DidUpdate')
 
     }
     render() {

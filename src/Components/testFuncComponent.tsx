@@ -1,7 +1,7 @@
 import React from "react"
 
 const TestFuncComponent = () => {
-    console.log("I`m not re-rendering!");
+    console.log("I just render once!");
 
     return (
         <div>

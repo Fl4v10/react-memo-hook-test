@@ -10,11 +10,11 @@ class TestPureComponent extends React.PureComponent<{}, { count: number }> {
     }
 
     componentWillUpdate(nextProps: any, nextState: any) {
-        console.log('Pure Component componentWillUpdate')
+        console.log('Pure Component WillUpdate')
     }
 
     componentDidUpdate(prevProps: any, prevState: any) {
-        console.log('Pure Component componentDidUpdate')
+        console.log('Pure Component DidUpdate')
     }
 
     render() {
